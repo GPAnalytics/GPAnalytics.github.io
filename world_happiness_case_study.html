@@ -1,0 +1,239 @@
+<<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>World Happiness Report</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/flexslider.css">
+    <link rel="stylesheet" href="fonts/icomoon/style.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Nunito+Sans:200,300,400,700" rel="stylesheet">
+    <style>
+        #section-world-happiness {
+            margin-bottom: 30px; 
+        }
+    </style>
+</head>
+<body data-spy="scroll" data-target="#pb-navbar" data-offset="200">
+
+    <!-- Navigation Section -->
+    <nav class="navbar navbar-expand-lg site-navbar navbar-light bg-light" id="pb-navbar">
+        <div class="container">
+            <!-- Navigation Content -->
+        </div>
+    </nav>
+
+    <!-- Main Content Section -->
+    <div class="container">
+        </style>
+        <!-- Section 0: World Happiness Report 2015-2023 -->
+        <div class="section" id="section-world-happiness">
+            <h1>World Happiness Report 2015-2023</h1>
+        </div>
+
+        <!-- Section 1: Purpose and Context -->
+        <div class="section" id="section-purpose">
+            <h2>Purpose and Context</h2>
+            <p>This project, part of my CareerFoundry Data Analytics Course, aimed to
+                demonstrate practical skills in data sourcing, analysis, and visualization, focusing on the World
+                Happiness Report. Aligned with the course's objective of independent dataset selection, the
+                project utilized Python for exploratory visual analysis, hypothesis development, and advanced
+                analytics. The culmination was a concise Tableau storyboard presentation, showcasing a deep
+                understanding of the data and its implications.</p>
+        </div>
+
+        <!-- Section 2: Overview -->
+<div class="section" id="section-overview" style="display: flex; align-items: center; justify-content: space-between;">
+    <div style="flex: 1;">
+        <h2>Overview</h2>
+        <p>The World Happiness Report, published by the
+            Sustainable Development Solutions Network, ranks
+            countries annually based on life evaluations from
+            Gallup World Poll data. Life evaluations, measured on
+            the Cantril ladder (0 to 10), consider variables like
+            GDP per capita, social support, healthy life
+            expectancy, freedom, generosity, and corruption. This
+            report is a global reference, sparking international
+            conversations on well-being in policy-making</p>
+    </div>
+    <!-- Add images after this paragraph -->
+    <img src="2023.png" alt="Chart 1" style="width: 700px; height: auto;">
+</div>
+
+
+        <!-- Section 3: Objective -->
+<div class="section" id="section-objective">
+    <h2>Objective</h2>
+    <p>To proficiently execute exploratory visual analysis in Python, identifying meaningful
+        connections between variables for further exploration. Formulating hypotheses and applying
+        diverse advanced analytical techniques, the conclusive outcomes are communicated through a
+        concise Tableau storyboard presentation.
+    </p>
+    <!-- Add the following subsections and content -->
+    <h2>Key Questions Addressed:</h2>
+    <ul>
+        <li>What is the relationship between GDP per capita, social support, healthy life expectancy, freedom, generosity, and perceptions of corruption on happiness score?</li>
+        <li>Which variable has the strongest impact on the happiness score of each country?</li>
+        <li>Which Python libraries are most suitable for exploratory data analysis (EDA)?</li>
+        <li>How do I choose the right statistical test and interpret the results effectively to make accurate inferences about my data?</li>
+        <li>How can I effectively visualize the relationships between variables using Python libraries like Pandas, Matplotlib, and Seaborn?</li>
+    </ul>
+    <!-- Include subsections and content as needed -->
+</div>
+
+       <!-- Section 4: Tools -->
+<div class="section" id="section-tools">
+    <h2>Tools</h2>
+    <p>Python and libraries (Pandas, NumPy, Matplotlib, SciPy, Seaborn, Folium, Plotly), Tableau, Excel.</p>
+    <!-- Include subsections and content as needed -->
+</div>
+
+<!-- Section 4.5: Data -->
+<div class="section" id="section-data">
+    <h2>Data</h2>
+    <p>Dataset - <a href="https://www.kaggle.com/datasets/sazidthe1/global-happiness-scores-and-factors/data" target="_blank" rel="noopener noreferrer">Kaggle</a>. Primary source - <a href="https://worldhappiness.report/" target="_blank" rel="noopener noreferrer">World Happiness Report website.</a></p>
+    <!-- Include subsections and content as needed -->
+</div>
+
+
+<!-- Section 5: Steps -->
+<div class="section" id="section-steps">
+    <h2>Steps</h2>
+
+    <!-- Subsection 1 -->
+    <h4>1. Cleaning and Merging Data</h4>
+    <p>I began with nine datasets for the World Happiness Report (spanning 2015-2023),
+        each representing a specific year. Utilizing a classic methodology, I merged these
+        datasets, ensuring consistent formatting, addressing missing values, and eliminating
+        duplicates for accurate and reliable data crucial to analysis.
+    </p>
+
+    <!-- Subsection 2 -->
+<h4>2. Exploring Relationships</h4>
+<p>Conducting EDA (Exploratory Data Analysis) in Python involved tasks like
+    correlation maps, scatter plots, and pair plots. A notable finding was the highest
+    correlation between happiness score and GDP per Capita, leading to the hypothesis
+    that higher GDP per Capita is associated with higher happiness scores. In order
+    to further investigate this, advanced analytical methods, including regression
+    analysis and k-means clustering, were performed to test and explore these
+    connections.
+</p>
+<!-- Image for Exploring Relationships -->
+<div style="text-align: center;">
+    <img src="correlation heat map viridis.png" alt="Exploring Relationships Image" style="width: 600px; height: auto;">
+</div>
+
+    <!-- Subsection 3 -->
+    <h4>3. Employing Advanced Analytical Methods</h4>
+
+    <!-- Sub-subsection 3.1 -->
+    <h5>Regression Analysis</h5>
+    <p>Regression analysis helps us understand how one or more factors are related to an
+        outcome, allowing us to predict or explain changes in the outcome based on the
+        values of the factors. The results of the regression analysis were showing that our
+        model moderately explains happiness score variability. Yet, nearly half the variance
+        remains unexplained by GDP Per Capita.</p>
+    <!-- Image for Regression Analysis -->
+    <div style="text-align: center;">
+        <img src="gdp per capita vs happiness score regression.png" alt="Exploring Relationships Image" style="width: 600px; height: auto;">
+    </div>
+
+    <!-- Sub-subsection 3.2 -->
+    <h5>Cluster Analysis</h5>
+    <p>A cluster analysis groups data points into "clusters". We can then compare the
+        groups of data to uncover new patterns. Utilizing clustering, three distinct groups
+        emerged. Analyzing the chart below, it's evident that countries in the Cluster 0 not
+        only boast the highest median Happiness scores but also lead in GDP Per Capita.
+    </p>
+    <!-- Image for Cluster Analysis -->
+    <div style="text-align: center;">
+        <img src="clusters.png" alt="Exploring Relationships Image" style="width: 600px; height: auto;">
+    </div>
+    <!-- Subsection 4 -->
+    <h4>4. Spatial Exploration</h4>
+    <p>Integrating a shapefile for spatial representation, I delved into geographic insights
+        regarding the relationship between GDP per Capita and happiness scores. The
+        results supported the hypothesis, confirming that regions with higher GDP were
+        associated with elevated happiness scores.
+    </p>
+    <!-- Image for Spatial Exploration -->
+    <div style="text-align: center;">
+        <img src="map.png" alt="Exploring Relationships Image" style="width: 600px; height: auto;">
+    </div>
+
+    <!-- More details about the project -->
+<p>More details about the project:</p>
+<button onclick="window.open('https://public.tableau.com/app/profile/goce.panovski/viz/WorldHappinessReport2015-2023_17011847790650/Story1', '_blank')">Tableau Story</button>
+<button onclick="window.open('https://github.com/Gotz1/World-Happiness-Report-2015-2023/blob/main/README.md', '_blank')">GitHub</button>
+</div>
+<!-- Add space between the lines -->
+<p class="mb-4"><!-- Add space between the lines --></p>
+
+
+        <!-- Section 6: Challenges -->
+<div class="section" id="section-challenges">
+    <h2>Challenges</h2>
+    <ul>
+        <li>
+            <h5>Understanding the Kaggle Dataset</h5>
+            <p>Understanding the Kaggle dataset posed initial challenges, particularly in interpreting terms
+                like Corruption Perceptions. A notable anomaly emerged as countries with the highest
+                happiness scores and elevated values in other variables exhibited unexpectedly high
+                corruption values. To resolve this inconsistency, I conducted a thorough verification
+                process using the World Happiness Report's official page—the dataset's primary source.
+                The investigation clarified that variables represented contributions to the Happiness Score,
+                not absolute measures. In the case of Corruption Perceptions, higher values indicated a lack
+                of corruption, contributing positively to happiness in countries with higher happiness
+                scores</p>
+        </li>
+        <li>
+            <h5>Project Time Constraints</h5>
+            <p>The project encountered challenges in navigating the vast possibilities within the data.
+                Despite the desire to delve deeper into regional aspects and variations, time constraints
+                mandated a focused approach.</p>
+        </li>
+    </ul>
+</div>
+
+        <!-- Section 7: Final Words -->
+<div class="section" id="section-final-words">
+    <h2>Final Words</h2>
+    <p>In the World Happiness Report project, my journey through the realms of data analytics was
+        both enlightening and with surprises.</p>
+    <p class="mb-4"><!-- Add space between the lines --></p>
+    <p>What surprised me was the nuanced relationship between happiness and GDP per capita.
+        Initially, I expected a linear correlation, assuming that higher GDP per capita would consistently
+        translate to higher happiness scores. However, the data challenged this assumption, revealing
+        that the happiest countries don't consistently possess the highest GDP per capita. This
+        unexpected finding underscores the complexity of factors influencing happiness.</p>
+    <p class="mb-4"><!-- Add space between the lines --></p>
+    <p>The unexpected revelation was the profound versatility of Python, not only as a tool for
+        visualization but as a robust platform for advanced analytics, embracing methods like
+        regression analysis and k-means clustering. The experience enriched my understanding of data
+        analytics, teaching me to navigate challenges, validate hypotheses, and communicate findings
+        effectively through Tableau.</p>
+</div>
+
+
+        <!-- Section 9: Summary -->
+<div class="section" id="section-summary">
+    <h2>Summary</h2>
+    <p>Moving forward, a multivariate exploration, employing techniques such as multiple regression,
+        will provide a nuanced understanding of how combinations of these factors interact to
+        influence happiness, ensuring a comprehensive analysis beyond GDP per Capita alone.</p>
+    <p class="mb-4"><!-- Add space between the lines --></p>
+    <p>Exploring residual factors, with a focus on cultural, environmental, and political variables, to
+        uncover additional influences on happiness beyond the primary variables considered in the
+        World Happiness Report.</p>
+</div>
+
+        
+    </div>
+
+    <!-- Footer or Additional Sections -->
+    <!-- Add your footer or additional sections as needed -->
+
+</body>
+</html>

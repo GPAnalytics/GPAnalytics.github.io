@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>GPAnalytics</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<link rel="stylesheet" href="css/animate.css">
+	<link rel="stylesheet" href="css/flexslider.css">
+	<link rel="stylesheet" href="fonts/icomoon/style.css">
+	<link rel="stylesheet" href="css/bootstrap.css">
+	<link rel="stylesheet" href="css/style.css">
+	<link href="https://fonts.googleapis.com/css?family=Nunito+Sans:200,300,400,700" rel="stylesheet">
+	<style>
+		.single-portfolio .thumb {
+			position: relative;
+			overflow: hidden;
+			width: 100%;
+			height: 200px; /* Adjust the height as needed */
+		}
+
+		.single-portfolio .thumb .image {
+			width: 100%;
+			height: 100%;
+			display: block;
+			object-fit: contain; /* Ensures the entire image is visible, may result in whitespace */
+		}
+        .single-portfolio .text {
+    color: black; /* Change to the desired text color */
+}
+	</style>
+</head>
+<body data-spy="scroll" data-target="#pb-navbar" data-offset="200">
+
+	<nav class="navbar navbar-expand-lg site-navbar navbar-light bg-light" id="pb-navbar">
+		<div class="container">
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample09" aria-controls="navbarsExample09" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse justify-content-md-center" id="navbarsExample09">
+				<ul class="navbar-nav">
+					<li class="nav-item"><a class="nav-link" href="#section-home">Home</a></li>
+					<li class="nav-item"><a class="nav-link" href="#section-portfolio">Portfolio</a></li>
+					<li class="nav-item"><a class="nav-link" href="#section-resume">Resume</a></li>
+					<li class="nav-item"><a class="nav-link" href="#section-about">About</a></li>
+					<li class="nav-item"><a class="nav-link" href="#section-contact">Contact</a></li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+
+	<section class="site-hero" style="background-image: url(images/unsplash_1.jpg);" id="section-home" data-stellar-background-ratio="0.5">
+		<div class="container">
+			<div class="row intro-text align-items-center justify-content-center">
+				<div class="col-md-10 text-center pt-5">
+					<h1 class="site-heading site-animate">Hello, I'm <strong class="d-block">Goce Panovski</strong></h1>
+					<strong class="d-block text-white text-uppercase letter-spacing">Munich based Data Analyst dedicated to efficiency and simplicity<br>- Both beautifully expressed in Data Analytics</strong>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="site-section" id="section-portfolio">
+		<div class="container">
+			<div class="row">
+				<div class="section-heading text-center col-md-12">
+					<h2>Featured <strong>Portfolio</strong></h2>
+				</div>
+			</div>
+			<div class="filters">
+				<ul>
+					<li class="active" data-filter="*">All</li>
+					<li data-filter=".python">Python Projects</li>
+					<li data-filter=".tableau">Tableau Projects</li>
+					<li data-filter=".sql">SQL Projects</li>
+				</ul>
+			</div>
+			<div class="filters-content">
+				<div class="row grid">
+					<div class="single-portfolio col-sm-4 all tableau">
+						<div class="relative">
+							<div class="thumb">
+								<div class="overlay overlay-bg"></div>
+								<img class="image img-fluid" src="forecast top ten states.png" alt="">
+							</div>
+							<a href="Influenza season.html" target="_blank" rel="noopener noreferrer">  
+								<div class="middle">
+									<div class="text align-self-center d-flex">
+										<span>See More</span>
+									</div>
+								</div>
+							</a>
+						</div>
+						<div class="p-inner">
+							<h4>Influenza Season Analysis</h4>
+							<div class="cat">Tableau</div>
+						</div>                                         
+					</div>                            
+					<div class="single-portfolio col-sm-4 all python">
+						<div class="relative">
+							<div class="thumb">
+								<div class="overlay overlay-bg"></div>
+								<img class="image img-fluid" src="2023.png" alt="">
+							</div>
+							<a href="world_happiness_case_study.html" target="_blank" rel="noopener noreferrer">
+								<div class="middle">
+									<div class="text align-self-center d-flex">
+										<span>See More</span>
+									</div>
+								</div>
+							</a>
+						</div>
+						<div class="p-inner">
+							<h4>World Happiness Report 2015-2023</h4>
+							<div class="cat">Python Project</div>
+						</div>
+					</div>
+					<div class="single-portfolio col-sm-4 all python">
+						<div class="relative">
+							<div class="thumb">
+								<div class="overlay overlay-bg"></div>
+								<img class="image img-fluid" src="instacart.png" alt="">
+							</div>
+							<a href="Instacart.html" target="_blank" rel="noopener noreferrer">
+								<div class="middle">
+									<div class="text align-self-center d-flex">
+										<span>See More</span>
+									</div>
+								</div>
+							</a>
+						</div>
+						<div class="p-inner">
+							<h4>Instacart Customer Behavior and Sales Patterns</h4>
+							<div class="cat">Python Project</div>
+						</div>
+					</div>
+					<div class="single-portfolio col-sm-4 all sql">
+						<div class="relative">
+							<div class="thumb">
+								<div class="overlay overlay-bg"></div>
+								<img class="image img-fluid" src="ERD Rockbuster1.jpg" alt="">
+							</div>
+							<a href="BI Data Analysis.html" target="_blank" rel="noopener noreferrer">  
+								<div class="middle">
+									<div class="text align-self-center d-flex">
+										<span>See More</span>
+									</div>
+								</div>
+							</a>
+						</div>
+						<div class="p-inner">
+							<h4>BI Data Analysis</h4>
+							<div class="cat">SQL Project</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="site-section " id="section-resume">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12 mb-5">
+					<div class="section-heading text-center">
+						<h2>My <strong>Resume</strong></h2>
+					</div>
+				</div>
+				<div class="col-md-6">
+					<h2 class="mb-5">Education</h2>
+					<div class="resume-item mb-4">
+						<span class="date"><span class="icon-calendar"></span> November 2023</span>
+						<h3>Data Analytics Specialist Certification</h3>
+						<p>CareerFoundry</p>
+						<span class="school"> Berlin, Germany (Online)</span>
+					</div>
+
+					<div class="resume-item mb-4">
+						<span class="date"><span class="icon-calendar"></span> June 2017 </span>
+						<h3>ISTQB Certified Tester Foundation Level</h3>
+						<p>ISTQB, Czech and Slovak board</p>
+						<span class="school"> Prague, Czech Republic</span>
+					</div>
+
+					<div class="resume-item mb-4">
+						<span class="date"><span class="icon-calendar"></span> March 2006</span>
+						<h3>BSc in Economics</h3>
+						<p>University Ss. „Cyril and Methodius “Faculty of Economics</p>
+						<span class="school"> Skopje, N. Macedonia</span>
+					</div>
+
+				</div>
+				<div class="col-md-6">
+
+
+					<h2 class="mb-5">Experience</h2>
+
+					<div class="resume-item mb-4">
+						<span class="date"><span class="icon-calendar"></span> July 2023 - November 2023</span>
+						<h3>CareerFoundry Certification </h3>
+						<p>Data Analytics Certification by CareerFoundry, enhancing my skills in data analysis, visualization, and statistical techniques.</p>
+						<span class="school">CareerFoundry</span>
+					</div>
+
+					<div class="resume-item mb-4">
+						<span class="date"><span class="icon-calendar"></span> May 2018 - May 2022</span>
+						<h3>Client Finance Analyst</h3>
+						<p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic.</p>
+						<span class="school">SIRVA Worldwide Relocation & Moving, Prague, Czech Republic</span>
+					</div>
+
+					<div class="resume-item mb-4">
+						<span class="date"><span class="icon-calendar"></span> December 2008 - August 2017</span>
+						<h3>Retail Loan Analyst, Domestic and Foreign Payments Officer, Cashier</h3>
+						<p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic.</p>
+						<span class="school">Sparkasse Bank Macedonia, Skopje, N. Macedonia</span>
+					</div>
+
+					
+
+
+				</div>
+			</div>
+		</div>
+	</section> <!-- .section -->
+
+	<section class="site-section" id="section-about">
+		<div class="container">
+			<div class="row mb-5 align-items-center">
+				<div class="col-lg-6 pr-lg-5 mb-5 mb-lg-0">
+					<img src="gotz slika.png" alt="Image placeholder" class="img-fluid" style="width: 100%; height: auto;">
+				</div>
+				<div class="col-lg-6 pl-lg-5">
+					<div class="section-heading">
+						<h2>About <strong>Me</strong></h2>
+					</div>
+					<p class="lead">Greetings, I'm Goce, a Munich-based data analyst with a Bachelor's degree in Economics and a diverse professional background. My journey began in retail banking, refining my analytical skills in loan analysis. Transitioning to the relocation industry, I managed financial aspects and conducted audits for policy compliance.
+	
+						My experiences blend financial acumen with a data-driven mindset. A recent graduate of CareerFoundry's data analytics course, I've mastered Python, SQL, and Tableau. My project work showcases readiness for challenging roles in the evolving data analytics field..</p>
+					<p class="mb-5">Let's connect if you seek a dynamic data analyst for actionable insights. Explore my portfolio for impactful projects. Beyond data, I enjoy running, hiking, and the art of baking sourdough bread.</p>
+		
+					<p>
+						<a href="#section-contact" class="btn btn-primary px-4 py-2 btn-sm smoothscroll">Hire Me</a>
+						<a href="C:\Users\Goce\Desktop\1.6\website/Goce_CV.pdf" class="btn btn-secondary px-4 py-2 btn-sm" download="Goce_CV.pdf">Download CV</a>
+					</p>
+				</div>
+			</div>
+		</div>
+	</section>
+	
+	
+	
+	
+	
+	
+
+		
+
+	<section class="site-section" id="section-contact">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12 mb-5">
+					<div class="section-heading text-center">
+						<h2>Get <strong>In Touch</strong></h2>
+					</div>
+				</div>
+
+				<div class="col-md-7 mb-5 mb-md-0">
+					<form action="https://yourdomain.com/path/to/process_form.php" method="post"class="site-form">
+						<h3 class="mb-5">Get In Touch</h3>
+						<div class="form-group">
+							<input type="text" class="form-control px-3 py-4" placeholder="Your Name">
+						</div>
+						<div class="form-group">
+							<input type="email" class="form-control px-3 py-4" placeholder="Your Email">
+						</div>
+						<div class="form-group">
+							<input type="email" class="form-control px-3 py-4" placeholder="Your Phone">
+						</div>
+						<div class="form-group mb-5">
+							<textarea class="form-control px-3 py-4"cols="30" rows="10" placeholder="Write a Message"></textarea>
+						</div>
+						<div class="form-group">
+							<input type="submit" class="btn btn-primary  px-4 py-3" value="Send Message">
+						</div>
+					</form>
+				</div>
+				<div class="col-md-5 pl-md-5">
+					<h3 class="mb-5">My Contact Details</h3>
+					<ul class="site-contact-details">
+						<li>
+							<span class="text-uppercase">Email</span>
+							goce(dot)panovski(at)gmail(dot)com
+						</li>
+						<li>
+							<span class="text-uppercase">Address</span>
+							Munich, Germany <br>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</section>
+
+
+	<footer class="site-footer">
+		<div class="container">
+	
+			<div class="row mb-5">
+				<div class="col-md-12 text-center">
+					<p>
+						<a href="https://github.com/GPAnalytics" class="social-item"><span class="icon-github"></span></a>
+						<a href="https://www.linkedin.com/in/goce-panovski-20810a28/" class="social-item"><span class="icon-linkedin2"></span></a>
+					</p>
+				</div>
+			</div>
+
+			<div class='impressum'><h1>Impressum</h1><p>Angaben gemäß § 5 TMG</p><p>Goce Panovski <br> 
+				Landsberger Str. 440c<br> 
+				81241 München <br> 
+				</p><p> <strong>Vertreten durch: </strong><br>
+				Goce Panovski<br>
+				</p><p><strong>Kontakt:</strong> <br>
+				Telefon: 49-1624766146<br>
+				E-Mail: <a href='mailto:goce.panovski@gmail.com'>goce.panovski@gmail.com</a></br></p><p><strong>Verantwortlich für den Inhalt nach § 55 Abs. 2 RStV:</strong><br>
+				Goce Panovski <br> 
+				Landsberger Str. 440c<br> 
+				81241 München <br></p> <p><strong>Haftungsausschluss: </strong><br><br><strong>Haftung für Inhalte</strong><br><br>
+				Die Inhalte unserer Seiten wurden mit größter Sorgfalt erstellt. Für die Richtigkeit, Vollständigkeit und Aktualität der Inhalte können wir jedoch keine Gewähr übernehmen. Als Diensteanbieter sind wir gemäß § 7 Abs.1 TMG für eigene Inhalte auf diesen Seiten nach den allgemeinen Gesetzen verantwortlich. Nach §§ 8 bis 10 TMG sind wir als Diensteanbieter jedoch nicht verpflichtet, übermittelte oder gespeicherte fremde Informationen zu überwachen oder nach Umständen zu forschen, die auf eine rechtswidrige Tätigkeit hinweisen. Verpflichtungen zur Entfernung oder Sperrung der Nutzung von Informationen nach den allgemeinen Gesetzen bleiben hiervon unberührt. Eine diesbezügliche Haftung ist jedoch erst ab dem Zeitpunkt der Kenntnis einer konkreten Rechtsverletzung möglich. Bei Bekanntwerden von entsprechenden Rechtsverletzungen werden wir diese Inhalte umgehend entfernen.<br><br><strong>Haftung für Links</strong><br><br>
+				Unser Angebot enthält Links zu externen Webseiten Dritter, auf deren Inhalte wir keinen Einfluss haben. Deshalb können wir für diese fremden Inhalte auch keine Gewähr übernehmen. Für die Inhalte der verlinkten Seiten ist stets der jeweilige Anbieter oder Betreiber der Seiten verantwortlich. Die verlinkten Seiten wurden zum Zeitpunkt der Verlinkung auf mögliche Rechtsverstöße überprüft. Rechtswidrige Inhalte waren zum Zeitpunkt der Verlinkung nicht erkennbar. Eine permanente inhaltliche Kontrolle der verlinkten Seiten ist jedoch ohne konkrete Anhaltspunkte einer Rechtsverletzung nicht zumutbar. Bei Bekanntwerden von Rechtsverletzungen werden wir derartige Links umgehend entfernen.<br><br><strong>Urheberrecht</strong><br><br>
+				Die durch die Seitenbetreiber erstellten Inhalte und Werke auf diesen Seiten unterliegen dem deutschen Urheberrecht. Die Vervielfältigung, Bearbeitung, Verbreitung und jede Art der Verwertung außerhalb der Grenzen des Urheberrechtes bedürfen der schriftlichen Zustimmung des jeweiligen Autors bzw. Erstellers. Downloads und Kopien dieser Seite sind nur für den privaten, nicht kommerziellen Gebrauch gestattet. Soweit die Inhalte auf dieser Seite nicht vom Betreiber erstellt wurden, werden die Urheberrechte Dritter beachtet. Insbesondere werden Inhalte Dritter als solche gekennzeichnet. Sollten Sie trotzdem auf eine Urheberrechtsverletzung aufmerksam werden, bitten wir um einen entsprechenden Hinweis. Bei Bekanntwerden von Rechtsverletzungen werden wir derartige Inhalte umgehend entfernen.<br><br><strong>Datenschutz</strong><br><br>
+				Die Nutzung unserer Webseite ist in der Regel ohne Angabe personenbezogener Daten möglich. Soweit auf unseren Seiten personenbezogene Daten (beispielsweise Name, Anschrift oder eMail-Adressen) erhoben werden, erfolgt dies, soweit möglich, stets auf freiwilliger Basis. Diese Daten werden ohne Ihre ausdrückliche Zustimmung nicht an Dritte weitergegeben. <br>
+				Wir weisen darauf hin, dass die Datenübertragung im Internet (z.B. bei der Kommunikation per E-Mail) Sicherheitslücken aufweisen kann. Ein lückenloser Schutz der Daten vor dem Zugriff durch Dritte ist nicht möglich. <br>
+				Der Nutzung von im Rahmen der Impressumspflicht veröffentlichten Kontaktdaten durch Dritte zur Übersendung von nicht ausdrücklich angeforderter Werbung und Informationsmaterialien wird hiermit ausdrücklich widersprochen. Die Betreiber der Seiten behalten sich ausdrücklich rechtliche Schritte im Falle der unverlangten Zusendung von Werbeinformationen, etwa durch Spam-Mails, vor.<br>
+				<br><br><strong>Google Analytics</strong><br><br>
+				Diese Website benutzt Google Analytics, einen Webanalysedienst der Google Inc. (''Google''). Google Analytics verwendet sog. ''Cookies'', Textdateien, die auf Ihrem Computer gespeichert werden und die eine Analyse der Benutzung der Website durch Sie ermöglicht. Die durch den Cookie erzeugten Informationen über Ihre Benutzung dieser Website (einschließlich Ihrer IP-Adresse) wird an einen Server von Google in den USA übertragen und dort gespeichert. Google wird diese Informationen benutzen, um Ihre Nutzung der Website auszuwerten, um Reports über die Websiteaktivitäten für die Websitebetreiber zusammenzustellen und um weitere mit der Websitenutzung und der Internetnutzung verbundene Dienstleistungen zu erbringen. Auch wird Google diese Informationen gegebenenfalls an Dritte übertragen, sofern dies gesetzlich vorgeschrieben oder soweit Dritte diese Daten im Auftrag von Google verarbeiten. Google wird in keinem Fall Ihre IP-Adresse mit anderen Daten der Google in Verbindung bringen. Sie können die Installation der Cookies durch eine entsprechende Einstellung Ihrer Browser Software verhindern; wir weisen Sie jedoch darauf hin, dass Sie in diesem Fall gegebenenfalls nicht sämtliche Funktionen dieser Website voll umfänglich nutzen können. Durch die Nutzung dieser Website erklären Sie sich mit der Bearbeitung der über Sie erhobenen Daten durch Google in der zuvor beschriebenen Art und Weise und zu dem zuvor benannten Zweck einverstanden.<br><br><strong>Google AdSense</strong><br><br>
+				Diese Website benutzt Google Adsense, einen Webanzeigendienst der Google Inc., USA (''Google''). Google Adsense verwendet sog. ''Cookies'' (Textdateien), die auf Ihrem Computer gespeichert werden und die eine Analyse der Benutzung der Website durch Sie ermöglicht. Google Adsense verwendet auch sog. ''Web Beacons'' (kleine unsichtbare Grafiken) zur Sammlung von Informationen. Durch die Verwendung des Web Beacons können einfache Aktionen wie der Besucherverkehr auf der Webseite aufgezeichnet und gesammelt werden. Die durch den Cookie und/oder Web Beacon erzeugten Informationen über Ihre Benutzung dieser Website (einschließlich Ihrer IP-Adresse) werden an einen Server von Google in den USA übertragen und dort gespeichert. Google wird diese Informationen benutzen, um Ihre Nutzung der Website im Hinblick auf die Anzeigen auszuwerten, um Reports über die Websiteaktivitäten und Anzeigen für die Websitebetreiber zusammenzustellen und um weitere mit der Websitenutzung und der Internetnutzung verbundene Dienstleistungen zu erbringen. Auch wird Google diese Informationen gegebenenfalls an Dritte übertragen, sofern dies gesetzlich vorgeschrieben oder soweit Dritte diese Daten im Auftrag von Google verarbeiten. Google wird in keinem Fall Ihre IP-Adresse mit anderen Daten der Google in Verbindung bringen. Das Speichern von Cookies auf Ihrer Festplatte und die Anzeige von Web Beacons können Sie verhindern, indem Sie in Ihren Browser-Einstellungen ''keine Cookies akzeptieren'' wählen (Im MS Internet-Explorer unter ''Extras > Internetoptionen > Datenschutz > Einstellung''; im Firefox unter ''Extras > Einstellungen > Datenschutz > Cookies''); wir weisen Sie jedoch darauf hin, dass Sie in diesem Fall gegebenenfalls nicht sämtliche Funktionen dieser Website voll umfänglich nutzen können. Durch die Nutzung dieser Website erklären Sie sich mit der Bearbeitung der über Sie erhobenen Daten durch Google in der zuvor beschriebenen Art und Weise und zu dem zuvor benannten Zweck einverstanden.</p><br> 
+				Website Impressum von <a href="https://www.impressum-generator.de">impressum-generator.de</a>
+				 </div>
+				 
+				
+	
+			<div class="row mb-5">
+				<p class="col-12 text-center">
+					<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+					Copyright &copy; <script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="icon-heart text-danger" aria-hidden="true" ></i> by <a href="https://colorlib.com" target="_blank" class="text-primary">Colorlib</a>
+					<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+				</p>
+			</div>
+	
+		</div>
+	</footer>
+
+
+
+
+	<script src="js/vendor/jquery.min.js"></script>
+	<script src="js/vendor/jquery-migrate-3.0.1.min.js"></script>
+	<script src="js/vendor/popper.min.js"></script>
+	<script src="js/vendor/bootstrap.min.js"></script>
+
+	<script src="js/vendor/jquery.easing.1.3.js"></script>
+
+	<script src="js/vendor/jquery.stellar.min.js"></script>
+	<script src="js/vendor/jquery.waypoints.min.js"></script>
+
+	<script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js"></script>
+	<script src="https://unpkg.com/imagesloaded@4/imagesloaded.pkgd.min.js"></script>
+	<script src="js/custom.js"></script>
+
+	<!-- Google Map -->
+    <!-- <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&sensor=false"></script>
+    	<script src="js/google-map.js"></script> -->
+
+    </body>
+    </html>
